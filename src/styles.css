@@ -1,0 +1,84 @@
+.container{
+    background: linear-gradient(#121212, #363535) ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 3vh;
+    color: white    ;
+  }
+
+  .title{
+    font-size: 60px;
+    margin-bottom: 2.5%;
+  }
+
+  .container-input{
+    display: flex;    
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px 15px;
+    border-radius: 8px;
+    box-shadow: 6px 5px 15px rgba(0, 0, 0, 0.604);
+    transition: .2s;
+
+  }
+
+  .container-input:hover{
+    border: 1px solid white;
+
+  }
+
+
+  .container-input input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 6px;
+    color: white;
+
+  }
+  .container-input input::placeholder{
+    color: #f1f1f1;
+  }
+  .btn{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover{
+
+    transform: scale(1.3);
+
+  }
+  .container-error{
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 13px;
+    color: rgb(255, 0, 0);
+  }
+
+.main{
+    background-color: #363535;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 2% 3%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.604);
+}
+
+.main h2{
+
+    text-shadow: 4px 4px 10px black;
+}
+.main span{
+        text-shadow: 4px 4px 10px black
+}
